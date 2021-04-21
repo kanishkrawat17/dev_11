@@ -31,3 +31,4 @@ highOrderFunction( callback );
 //Conclusion
 // High Order Function => Function which accepts functions as a argument !!
 // CallBack Function => Function which are passed as a argument in a function !! //
+

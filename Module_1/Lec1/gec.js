@@ -12,4 +12,3 @@ sayHi();
 function sayHi(){
     console.log("fun says Hi");
 }
-//
