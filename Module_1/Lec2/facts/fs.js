@@ -19,4 +19,8 @@ fs.writeFileSync("../activity/activity.js" , "akjsbfkjabsf"); // will make file 
 fs.writeFileSync("./file.txt","I am the best"); //  will make file in the current folder ./
 fs.writeFileSync("../file.txt","ok report hai"); /// will make a file out of this folder  which is facts 
 
+fs.writeFileSync("C:\\Users\\Kanishk\\Desktop\\Dev_PP_11\\Module_1\\Lec2\\fileee.txt", " content hai"); // will make a filee in lec2 folder
+
+
+
 
