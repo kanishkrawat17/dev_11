@@ -1,9 +1,11 @@
 const fs = require("fs");
 
-let f1KaData = fs.readFileSync("../facts/f1.txt","utf8");
-let f2KaData = fs.readFileSync("../facts/f2.txt","utf8");
+let f1KaData = fs.readFileSync("./f1.txt","utf8");
+let f2KaData = fs.readFileSync("./f2.txt","utf8");
 // console.log(f1KaData);
 // console.log(f2KaData);
+let data = f1KaData.split(""); 
+console.log(data);
 
 // let bothOutput = f1KaData + "\n" + f2KaData;
 // console.log(bothOutput);

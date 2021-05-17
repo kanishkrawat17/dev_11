@@ -1,7 +1,9 @@
-module.exports = {
+let  extensionsMapping =  {
     "Documents" : ["doc" , "pdf" , "txt" ],
     "Images": ["img" , "jpg" , "gif" , "png"],
     "Audio": ["mp3"] ,
     "Video": ["mp4" , "mkv"],
     "Applications" : ["exe"]
-}
+};
+
+module.exports =  extensionsMapping ;

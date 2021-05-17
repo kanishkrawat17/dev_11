@@ -9,6 +9,7 @@ const fs = require("fs");
 // let f1KaData = fs.readFileSync("./f1.txt");
 // console.log(f1KaData + "");
 
+
 let f1KaData = fs.readFileSync("./f1.txt",'utf-8'); // This is another way to print using utf -8
 console.log(f1KaData);
 
