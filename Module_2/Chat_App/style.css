@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.chat-app {
+    display: flex;
+    height: 100vh;
+}
+
+.left-view {
+    width: 30%;
+    background: aqua;
+}
+
+.right-view {
+    width: 70%;
+    background: black;
+}
+
+.sender {
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    ALIGN-ITEMS: flex-end;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.sender>div {
+    height: 30%;
+    width: 50%;
+    padding: 10PX;
+    background: lightblue;
+}
+
+.members {
+    height: 26%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background: burlywood; */
+    justify-content: space-evenly;
+}
+
+.members>div {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50px;
+    background: silver;
+    height: 20%;
+    align-items: center;
+}
+
+.joined-left {
+}
+
+.reciever {
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.reciever>div {
+    height: 30%;
+    width: 50%;
+    padding: 10PX;
+    background: lightblue;
+}
+.input-box{
+    margin-top:5%;
+    height: 5%;
+    width: 95%;
+    border-radius: 50px;
+}

@@ -8,9 +8,10 @@ function fun() {
         }
         b = 100;
         return y;
-}
+    }
 
 
     
-var newFun = fun();
-newFun();
+// var newFun = fun();
+// newFun();
+fun();

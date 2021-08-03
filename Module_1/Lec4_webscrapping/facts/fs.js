@@ -14,10 +14,10 @@ let myDocument = cheerio.load(htmlKaData);
 // console.log(myDocument);  // object ,function, initialize {}
 
 let h1KaData = myDocument("h1").text();
-// console.log(h1Element); element => cheerio => object form me data
+// console.log(h1Element); //element => cheerio => object form me data
 // console.log(h1KaData); 
 
-// let ptag = myDocument("p");                    /** This is very important 
+let ptag = myDocument("p");                    //This is very important 
                                                       
 // console.log(ptag.length);
 // console.log(myDocument(ptag).text( ));             
@@ -32,9 +32,9 @@ let h1KaData = myDocument("h1").text();
 // console.log(myDocument("ul  a").text()); // you will get all a tags inside li
 // console.log(myDocument("ul li a").text());
 // console.log(myDocument("ul>a").text()); // only direct child !!
-// console.log(myDocument(".inside.main").text()); // classes and ids / dot
-// console.log(myDocument(".inside").text());
+console.log(myDocument(".inside.main").text()); // classes and ids / dot
+console.log(myDocument(".inside").text());
 //console.log(myDocument("#main-heading").text()); // # for id
-// console.log(myDocument("table thead tr th").text());  // ** important to understand the activity
+console.log(myDocument("table thead tr th").text());  // ** important to understand the activity
 // console.log(myDocument("table td").text()); 
-// console.log(myDocument(".main.hu").text()); 
+console.log(myDocument(".main.hu").text()); 

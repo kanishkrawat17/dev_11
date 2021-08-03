@@ -9,7 +9,7 @@ function getMatchDetails(matchLink){
         processData(data);
     })
 }
-
+console.log();
 
 function processData(html){
     let myDocument = cheerio.load(html);
@@ -74,7 +74,7 @@ function createBatsmanFile(teamName , batsmanName , runs , balls , fours , sixes
         Balls : balls , 
         Fours : fours , 
         Sixes : sixes ,
-        StrikeRate : strikeRate
+        StrikeRate : strikeRatejk
     }
     batsmanFile.push(inning);
     fs.writeFileSync( batsmanFilePath , JSON.stringify(batsmanFile) );
